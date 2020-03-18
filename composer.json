@@ -1,5 +1,5 @@
 {
-    "name": "knplabs/rad-domain-event",
+    "name": "macs/rad-domain-event",
     "description": "Provide RAD Domain Event component",
     "license": "MIT",
     "authors": [
@@ -9,14 +9,14 @@
         }
     ],
     "require": {
-        "php": "~7.0",
-        "symfony/http-kernel": "^2.6 || ~3.0 || ~4.0",
-        "symfony/dependency-injection": "^2.6 || ~3.0 || ~4.0",
-        "symfony/config": "^2.6 || ~3.0 || ~4.0",
-        "doctrine/orm": "^2.5"
+        "php": "*",
+        "symfony/http-kernel": "@stable",
+        "symfony/dependency-injection": "@stable",
+        "symfony/config": "@stable",
+        "doctrine/orm": "@stable"
     },
     "require-dev": {
-        "phpspec/phpspec": "^2.4"
+        "phpspec/phpspec": "@stable"
     },
     "autoload": {
         "psr-0": {
